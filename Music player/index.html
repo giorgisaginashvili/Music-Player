@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/5acd0c61c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="container">
+    <img src="" alt="">
+    <input type="range" name="slider" id="range">
+    <i class="fa-solid fa-backward"></i>
+    <i class="fa-solid fa-play"></i>
+    <i class="fa-solid fa-pause"></i>
+    <i class="fa-solid fa-forward"></i>
+</div> -->
+
+
+<div class="container" id="container">
+    <div class="player">
+        <img id="cover" src="image1.jpg" alt="Cover Image" width="200">
+        <audio id="audio" src="music1.mp3"></audio>
+        <div id="songInfo">
+            <p id="songName">Song Name 1</p>
+            <p id="songAuthor">Author 1</p>
+        </div>
+        <div class="controls">
+            <i id="backward" class="fa-solid fa-backward"></i>
+            <i id="playPause" class="fa-solid fa-play"></i>
+            <i id="forward" class="fa-solid fa-forward"></i>
+        </div>
+        <input type="range" id="slider" class="slider" value="0" min="0" max="100">
+        <div id="timeInfo">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+    </div>
+</div>
+  
+</body>
+</html>
+<script src="./index.js"></script>
